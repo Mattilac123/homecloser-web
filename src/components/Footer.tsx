@@ -17,7 +17,7 @@ export default function Footer() {
     ],
     legal: [
       { label: "Privacy Policy", href: "/privacy" },
-      { label: "Terms of Service", href: "#" },
+      { label: "Terms of Service", href: "/terms" },
     ],
   };
 
