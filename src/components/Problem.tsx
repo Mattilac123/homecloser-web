@@ -1,12 +1,12 @@
 export default function Problem() {
   const stats = [
     {
-      number: "75,000+",
-      label: "As many as 75,000 serious crimes committed against real estate agents annually",
-    },
-    {
       number: "38%",
       label: "Of agents have felt unsafe during a showing",
+    },
+    {
+      number: "75,000+",
+      label: "As many as 75,000 serious crimes committed against real estate agents annually",
     },
     {
       number: "1 in 3",
