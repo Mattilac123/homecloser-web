@@ -37,819 +37,478 @@ export default function PrivacyPolicy() {
 
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article className="prose prose-gray max-w-none privacy-policy">
-          <h1>PRIVACY POLICY</h1>
+          <h1>HOMECLOSER AI</h1>
+          <h2>PRIVACY POLICY</h2>
           <p className="text-gray-500 text-sm">
-            <strong>Last updated January 09, 2026</strong>
+            <strong>Effective Date: February 19, 2026 &nbsp;|&nbsp; Last Updated: February 19, 2026</strong>
+          </p>
+
+          <div className="bg-yellow-50 border border-yellow-300 rounded p-4 my-6">
+            <p className="font-bold text-yellow-900 mb-0">
+              IMPORTANT: HomeCloser AI continuously records audio from your
+              device&apos;s microphone during property showings. This audio is
+              uploaded to our servers and processed by OpenAI for transcription
+              and AI-generated notes. Please read this Privacy Policy carefully
+              before using the Service.
+            </p>
+          </div>
+
+          <h2>TABLE OF CONTENTS</h2>
+          <ol>
+            <li><a href="#overview">Overview and Scope</a></li>
+            <li><a href="#infocollect">Information We Collect</a></li>
+            <li><a href="#infouse">How We Use Your Information</a></li>
+            <li><a href="#audio">Audio Recording and AI Processing &mdash; Key Disclosures</a></li>
+            <li><a href="#whoshare">How We Share Your Information</a></li>
+            <li><a href="#thirdparty">Third-Party Service Providers</a></li>
+            <li><a href="#retention">Data Retention</a></li>
+            <li><a href="#security">Data Security</a></li>
+            <li><a href="#rights">Your Rights and Choices</a></li>
+            <li><a href="#children">Children&apos;s Privacy</a></li>
+            <li><a href="#changes">Changes to This Policy</a></li>
+            <li><a href="#contact">Contact Information</a></li>
+          </ol>
+
+          <h2 id="overview">1. OVERVIEW AND SCOPE</h2>
+
+          <p>
+            <strong>1.1 About This Policy.</strong> HomeCloser AI, LLC
+            (&quot;HomeCloser AI,&quot; &quot;Company,&quot; &quot;we,&quot;
+            &quot;us,&quot; or &quot;our&quot;) operates the HomeCloser AI
+            mobile application and associated backend services (collectively,
+            the &quot;Service&quot;). This Privacy Policy explains what personal
+            information we collect, how we use and share it, and the choices
+            available to you. By using the Service, you agree to the collection
+            and use of information as described in this Policy.
           </p>
 
           <p>
-            This Privacy Notice for <strong>HomeCloser AI</strong> (&quot;
-            <strong>we</strong>,&quot; &quot;<strong>us</strong>,&quot; or &quot;
-            <strong>our</strong>&quot;), describes how and why we might access,
-            collect, store, use, and/or share (&quot;
-            <strong>process</strong>&quot;) your personal information when you
-            use our services (&quot;<strong>Services</strong>&quot;), including
-            when you:
+            <strong>1.2 Scope.</strong> This Policy applies to information
+            collected through the HomeCloser AI mobile application, our backend
+            servers, and any associated features. It does not apply to
+            third-party services that have their own privacy policies, even when
+            those services are integrated with ours.
           </p>
 
+          <p>
+            <strong>1.3 U.S. Service.</strong> The Service is currently offered
+            solely within the United States. If you are located outside the
+            United States, please do not use the Service.
+          </p>
+
+          <h2 id="infocollect">2. INFORMATION WE COLLECT</h2>
+
+          <p>
+            <strong>2.1 Account and Profile Information.</strong> When you
+            register for an account, we collect the following information:
+          </p>
           <ul>
+            <li>Full legal name</li>
+            <li>Email address</li>
             <li>
-              Download and use our mobile application (HomeCloser AI), or any
-              other application of ours that links to this Privacy Notice
+              Password (hashed and managed by Supabase; we do not store
+              plaintext passwords)
             </li>
             <li>
-              Use HomeCloser AI. A platform for real estate agents to improve
-              their safety and success through the use of technology.
+              United States mobile phone number (stored to enable emergency
+              dispatch)
             </li>
+            <li>U.S. state of practice</li>
+            <li>Years of real estate experience</li>
+            <li>Gender</li>
+            <li>Brokerage name (optional)</li>
             <li>
-              Engage with us in other related ways, including any marketing or
-              events
+              Safety code phrase &mdash; a custom word or phrase you configure
+              to trigger emergency dispatch (e.g., &quot;Blue Book&quot;). This
+              phrase is stored in your profile and transmitted to our backend
+              for matching against your transcripts during showings.
             </li>
           </ul>
 
           <p>
-            <strong>Questions or concerns?</strong> Reading this Privacy Notice
-            will help you understand your privacy rights and choices. We are
-            responsible for making decisions about how your personal information
-            is processed. If you do not agree with our policies and practices,
-            please do not use our Services. If you still have any questions or
-            concerns, please contact us at{" "}
-            <a href="mailto:christian@homecloserai.com">
-              christian@homecloserai.com
-            </a>
-            .
+            <strong>2.2 Showing and Client Information.</strong> When you create
+            or conduct a property showing, we collect:
           </p>
-
-          <h2>SUMMARY OF KEY POINTS</h2>
+          <ul>
+            <li>Property address (street, city, state, ZIP code)</li>
+            <li>Client name</li>
+            <li>Showing notes you enter manually</li>
+            <li>Showing start time and completion status</li>
+          </ul>
 
           <p>
-            <strong>
-              <em>
-                This summary provides key points from our Privacy Notice, but
-                you can find out more details about any of these topics by
-                clicking the link following each key point or by using our{" "}
-                <a href="#toc">table of contents</a> below to find the section
-                you are looking for.
-              </em>
-            </strong>
+            <strong>2.3 IMPORTANT &mdash; AUDIO RECORDING DISCLOSURE.</strong>{" "}
+            WHEN YOU START A SHOWING SESSION, THE SERVICE CONTINUOUSLY RECORDS
+            AUDIO FROM YOUR DEVICE&apos;S MICROPHONE IN 3-SECOND CHUNKS FOR
+            THE ENTIRE DURATION OF THE SESSION. THESE AUDIO RECORDINGS ARE:
           </p>
-
+          <ul>
+            <li>
+              Captured on your device as temporary audio files (.m4a format)
+            </li>
+            <li>
+              Automatically uploaded to our backend servers (hosted by Railway)
+              over an encrypted HTTPS connection
+            </li>
+            <li>
+              Transmitted to OpenAI&apos;s servers for speech-to-text
+              transcription
+            </li>
+            <li>Deleted from your device after successful upload</li>
+            <li>
+              Retained on our servers as transcripts (the audio files themselves
+              are not stored long-term on our servers; only the transcribed text
+              is retained)
+            </li>
+          </ul>
           <p>
-            <strong>What personal information do we process?</strong> When you
-            visit, use, or navigate our Services, we may process personal
-            information depending on how you interact with us and the Services,
-            the choices you make, and the products and features you use. Learn
-            more about{" "}
-            <a href="#personalinfo">personal information you disclose to us</a>.
-          </p>
-
-          <p>
-            <strong>
-              Do we process any sensitive personal information?
-            </strong>{" "}
-            We do not process sensitive personal information.
-          </p>
-
-          <p>
-            <strong>
-              Do we collect any information from third parties?
-            </strong>{" "}
-            We do not collect any information from third parties.
+            You are solely responsible for obtaining all legally required
+            consents from any persons (clients, homeowners, co-agents, or
+            bystanders) who may be present and recorded during a showing
+            session, in accordance with all applicable federal, state, and local
+            recording laws.
           </p>
 
           <p>
-            <strong>How do we process your information?</strong> We process your
-            information to provide, improve, and administer our Services,
-            communicate with you, for security and fraud prevention, and to
-            comply with law. We may also process your information for other
-            purposes with your consent. We process your information only when we
-            have a valid legal reason to do so. Learn more about{" "}
-            <a href="#infouse">how we process your information</a>.
+            <strong>2.4 AI-Generated Content.</strong> Following a showing, we
+            use OpenAI to automatically generate:
+          </p>
+          <ul>
+            <li>
+              Transcripts &mdash; full text transcriptions of the audio captured
+              during the showing, stored in our database and linked to your
+              account
+            </li>
+            <li>
+              AI Showing Notes &mdash; coaching notes and property fact
+              summaries generated by OpenAI&apos;s GPT-4o-mini model based on
+              your transcript and showing analytics
+            </li>
+            <li>
+              Feature requests &mdash; free-text feedback you optionally submit
+              through the app
+            </li>
+          </ul>
+
+          <p>
+            <strong>2.5 Showing Analytics.</strong> We automatically calculate
+            and store the following performance metrics derived from your audio
+            recordings and session data:
+          </p>
+          <ul>
+            <li>Total showing duration (in milliseconds)</li>
+            <li>
+              Speaking time and talk ratio (your speaking time as a fraction of
+              total duration)
+            </li>
+            <li>Filler word count (&quot;um,&quot; &quot;uh,&quot; &quot;umm,&quot; &quot;uhh&quot;)</li>
+            <li>Longest single monologue duration</li>
+            <li>Number of open-ended questions detected</li>
+            <li>Audio chunk counts (recorded and successfully uploaded)</li>
+          </ul>
+
+          <p>
+            <strong>2.6 Device and Technical Information.</strong> We and our
+            service providers may automatically collect:
+          </p>
+          <ul>
+            <li>Device type, model, and operating system version</li>
+            <li>
+              Network connectivity status and type (checked before each showing)
+            </li>
+            <li>
+              App usage events and session data (via PostHog analytics &mdash;
+              see Section 6.5)
+            </li>
+            <li>IP address and general network information</li>
+          </ul>
+          <p>
+            We do not collect precise GPS location. Location information is
+            limited to the U.S. state you select during registration and the
+            property addresses you enter for your showings.
           </p>
 
           <p>
-            <strong>
-              In what situations and with which types of parties do we share
-              personal information?
-            </strong>{" "}
-            We may share information in specific situations and with specific
-            categories of third parties. Learn more about{" "}
-            <a href="#whoshare">
-              when and with whom we share your personal information
-            </a>
-            .
+            <strong>2.7 Permissions Requested.</strong> The Service requests
+            the following device permissions:
+          </p>
+          <ul>
+            <li>
+              <strong>Microphone</strong> &mdash; required to capture audio
+              during showings for safety phrase detection, transcription, and
+              performance analytics
+            </li>
+            <li>
+              <strong>Speech Recognition</strong> &mdash; used by the operating
+              system in connection with audio processing
+            </li>
+            <li>
+              <strong>Location (when in use)</strong> &mdash; used to support
+              safety features in connection with the property address you have
+              entered
+            </li>
+            <li>
+              <strong>Camera and Photo Library</strong> &mdash; requested for
+              potential future features; not actively used in the current version
+              of the Service
+            </li>
+            <li>
+              <strong>Background Audio</strong> &mdash; the app runs audio
+              recording in the background during an active showing session;
+              recording stops if you navigate away from the app
+            </li>
+          </ul>
+
+          <h2 id="infouse">3. HOW WE USE YOUR INFORMATION</h2>
+
+          <p>We use the information we collect for the following purposes:</p>
+          <ul>
+            <li>
+              <strong>Account creation and authentication</strong> &mdash; to
+              create and manage your account and verify your identity
+            </li>
+            <li>
+              <strong>Emergency dispatch</strong> &mdash; to transmit your name,
+              phone number, and property address to Noonlight when your safety
+              phrase is detected during a showing
+            </li>
+            <li>
+              <strong>Audio transcription</strong> &mdash; to send your audio
+              recordings to OpenAI for conversion to text, which is then used
+              for safety phrase detection and post-showing analytics
+            </li>
+            <li>
+              <strong>AI-generated notes and analytics</strong> &mdash; to
+              generate showing performance feedback and property notes using
+              OpenAI&apos;s language models
+            </li>
+            <li>
+              <strong>Service delivery and improvement</strong> &mdash; to
+              operate, maintain, and improve the features and performance of the
+              Service
+            </li>
+            <li>
+              <strong>Safety event logging</strong> &mdash; to maintain an audit
+              log of all safety-related events (phrase detections, alarm
+              triggers, Noonlight status updates) for your account
+            </li>
+            <li>
+              <strong>Subscription management</strong> &mdash; to manage your
+              subscription and process payments through RevenueCat and the Apple
+              App Store
+            </li>
+            <li>
+              <strong>Product analytics</strong> &mdash; to understand how users
+              interact with the Service in aggregate, using PostHog (no
+              personally identifiable information is included in analytics
+              events)
+            </li>
+            <li>
+              <strong>Customer support</strong> &mdash; to respond to your
+              inquiries, feature requests, and reported issues
+            </li>
+            <li>
+              <strong>Legal compliance</strong> &mdash; to comply with
+              applicable laws, regulations, and legal process, and to enforce
+              our Terms of Service
+            </li>
+          </ul>
+
+          <p>
+            We do not use your personal information for targeted advertising. We
+            do not sell your personal information to third parties.
+          </p>
+
+          <h2 id="audio">
+            4. AUDIO RECORDING AND AI PROCESSING &mdash; KEY DISCLOSURES
+          </h2>
+
+          <p>
+            This section describes the most privacy-sensitive aspects of the
+            Service. Please read it carefully.
           </p>
 
           <p>
-            <strong>How do we keep your information safe?</strong> We have
-            adequate organizational and technical processes and procedures in
-            place to protect your personal information. However, no electronic
-            transmission over the internet or information storage technology can
-            be guaranteed to be 100% secure, so we cannot promise or guarantee
-            that hackers, cybercriminals, or other unauthorized third parties
-            will not be able to defeat our security and improperly collect,
-            access, steal, or modify your information. Learn more about{" "}
-            <a href="#infosafe">how we keep your information safe</a>.
+            <strong>4.1 What Is Recorded.</strong> During an active showing
+            session, the Service records all ambient audio picked up by your
+            device&apos;s microphone &mdash; including, but not limited to,
+            your own voice, client voices, and any other sounds in the
+            environment. Recording is continuous and automatic once a session is
+            started; it does not require you to press a button for each
+            recording.
           </p>
 
           <p>
-            <strong>What are your rights?</strong> Depending on where you are
-            located geographically, the applicable privacy law may mean you have
-            certain rights regarding your personal information. Learn more about{" "}
-            <a href="#privacyrights">your privacy rights</a>.
+            <strong>4.2 How Audio Is Processed.</strong> Each 3-second audio
+            chunk is:
           </p>
+          <ul>
+            <li>
+              Analyzed for voice activity on your device (to avoid uploading
+              silence)
+            </li>
+            <li>Uploaded over HTTPS to our backend server</li>
+            <li>
+              Sent to OpenAI&apos;s Whisper API (model: gpt-4o-mini-transcribe)
+              for speech-to-text transcription in English
+            </li>
+            <li>
+              Scanned for your safety code phrase using case-insensitive text
+              matching on the resulting transcript
+            </li>
+            <li>
+              Stored as a transcript record in our Supabase database, linked to
+              your account and showing
+            </li>
+          </ul>
 
           <p>
-            <strong>How do you exercise your rights?</strong> The easiest way to
-            exercise your rights is by submitting a{" "}
+            <strong>4.3 OpenAI&apos;s Use of Your Data.</strong> Your audio
+            recordings and transcript text are transmitted to OpenAI, L.L.C.
+            OpenAI processes this data to provide transcription and language
+            model services. HomeCloser AI does not use your audio or transcripts
+            to train AI models. However, OpenAI&apos;s own data use and
+            retention policies apply to data transmitted to their APIs. We
+            encourage you to review OpenAI&apos;s Privacy Policy at{" "}
             <a
-              href="https://app.termly.io/dsar/d6b2f00c-3a33-4ea2-bccc-da749a942bb1"
+              href="https://openai.com/policies/privacy-policy"
               target="_blank"
               rel="noopener noreferrer"
             >
-              data subject access request
-            </a>
-            , or by contacting us. We will consider and act upon any request in
-            accordance with applicable data protection laws.
-          </p>
-
-          <p>
-            Want to learn more about what we do with any information we collect?{" "}
-            <a href="#toc">Review the Privacy Notice in full</a>.
-          </p>
-
-          <h2 id="toc">TABLE OF CONTENTS</h2>
-
-          <ol>
-            <li>
-              <a href="#infocollect">WHAT INFORMATION DO WE COLLECT?</a>
-            </li>
-            <li>
-              <a href="#infouse">HOW DO WE PROCESS YOUR INFORMATION?</a>
-            </li>
-            <li>
-              <a href="#whoshare">
-                WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
-              </a>
-            </li>
-            <li>
-              <a href="#cookies">
-                DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
-              </a>
-            </li>
-            <li>
-              <a href="#ai">
-                DO WE OFFER ARTIFICIAL INTELLIGENCE-BASED PRODUCTS?
-              </a>
-            </li>
-            <li>
-              <a href="#inforetain">HOW LONG DO WE KEEP YOUR INFORMATION?</a>
-            </li>
-            <li>
-              <a href="#infosafe">HOW DO WE KEEP YOUR INFORMATION SAFE?</a>
-            </li>
-            <li>
-              <a href="#infominors">
-                DO WE COLLECT INFORMATION FROM MINORS?
-              </a>
-            </li>
-            <li>
-              <a href="#privacyrights">WHAT ARE YOUR PRIVACY RIGHTS?</a>
-            </li>
-            <li>
-              <a href="#DNT">CONTROLS FOR DO-NOT-TRACK FEATURES</a>
-            </li>
-            <li>
-              <a href="#uslaws">
-                DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
-              </a>
-            </li>
-            <li>
-              <a href="#policyupdates">DO WE MAKE UPDATES TO THIS NOTICE?</a>
-            </li>
-            <li>
-              <a href="#contact">
-                HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
-              </a>
-            </li>
-            <li>
-              <a href="#request">
-                HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM
-                YOU?
-              </a>
-            </li>
-          </ol>
-
-          <h2 id="infocollect">1. WHAT INFORMATION DO WE COLLECT?</h2>
-
-          <h3 id="personalinfo">Personal information you disclose to us</h3>
-
-          <p>
-            <strong>
-              <em>In Short:</em>
-            </strong>{" "}
-            <em>We collect personal information that you provide to us.</em>
-          </p>
-
-          <p>
-            We collect personal information that you voluntarily provide to us
-            when you register on the Services, express an interest in obtaining
-            information about us or our products and Services, when you
-            participate in activities on the Services, or otherwise when you
-            contact us.
-          </p>
-
-          <p>
-            <strong>Personal Information Provided by You.</strong> The personal
-            information that we collect depends on the context of your
-            interactions with us and the Services, the choices you make, and the
-            products and features you use. The personal information we collect
-            may include the following:
-          </p>
-
-          <ul>
-            <li>names</li>
-            <li>phone numbers</li>
-            <li>email addresses</li>
-            <li>mailing addresses</li>
-            <li>passwords</li>
-            <li>client information</li>
-          </ul>
-
-          <p>
-            <strong>Sensitive Information.</strong> We do not process sensitive
-            information.
-          </p>
-
-          <p>
-            <strong>Application Data.</strong> If you use our application(s), we
-            also may collect the following information if you choose to provide
-            us with access or permission:
-          </p>
-
-          <ul>
-            <li>
-              <em>Geolocation Information.</em> We may request access or
-              permission to track location-based information from your mobile
-              device, either continuously or while you are using our mobile
-              application(s), to provide certain location-based services. If you
-              wish to change our access or permissions, you may do so in your
-              device&apos;s settings.
-            </li>
-            <li>
-              <em>Mobile Device Access.</em> We may request access or permission
-              to certain features from your mobile device, including your mobile
-              device&apos;s microphone, bluetooth, reminders, and other
-              features. If you wish to change our access or permissions, you may
-              do so in your device&apos;s settings.
-            </li>
-          </ul>
-
-          <p>
-            This information is primarily needed to maintain the security and
-            operation of our application(s), for troubleshooting, and for our
-            internal analytics and reporting purposes.
-          </p>
-
-          <p>
-            All personal information that you provide to us must be true,
-            complete, and accurate, and you must notify us of any changes to
-            such personal information.
-          </p>
-
-          <h3>Information automatically collected</h3>
-
-          <p>
-            <strong>
-              <em>In Short:</em>
-            </strong>{" "}
-            <em>
-              Some information — such as your Internet Protocol (IP) address
-              and/or browser and device characteristics — is collected
-              automatically when you visit our Services.
-            </em>
-          </p>
-
-          <p>
-            We automatically collect certain information when you visit, use, or
-            navigate the Services. This information does not reveal your
-            specific identity (like your name or contact information) but may
-            include device and usage information, such as your IP address,
-            browser and device characteristics, operating system, language
-            preferences, referring URLs, device name, country, location,
-            information about how and when you use our Services, and other
-            technical information. This information is primarily needed to
-            maintain the security and operation of our Services, and for our
-            internal analytics and reporting purposes.
-          </p>
-
-          <p>
-            Like many businesses, we also collect information through cookies
-            and similar technologies.
-          </p>
-
-          <p>The information we collect includes:</p>
-
-          <ul>
-            <li>
-              <em>Log and Usage Data.</em> Log and usage data is
-              service-related, diagnostic, usage, and performance information
-              our servers automatically collect when you access or use our
-              Services and which we record in log files. Depending on how you
-              interact with us, this log data may include your IP address,
-              device information, browser type, and settings and information
-              about your activity in the Services (such as the date/time stamps
-              associated with your usage, pages and files viewed, searches, and
-              other actions you take such as which features you use), device
-              event information (such as system activity, error reports
-              (sometimes called &quot;crash dumps&quot;), and hardware
-              settings).
-            </li>
-            <li>
-              <em>Location Data.</em> We collect location data such as
-              information about your device&apos;s location, which can be either
-              precise or imprecise. How much information we collect depends on
-              the type and settings of the device you use to access the
-              Services. For example, we may use GPS and other technologies to
-              collect geolocation data that tells us your current location
-              (based on your IP address). You can opt out of allowing us to
-              collect this information either by refusing access to the
-              information or by disabling your Location setting on your device.
-              However, if you choose to opt out, you may not be able to use
-              certain aspects of the Services.
-            </li>
-          </ul>
-
-          <h2 id="infouse">2. HOW DO WE PROCESS YOUR INFORMATION?</h2>
-
-          <p>
-            <strong>
-              <em>In Short:</em>
-            </strong>{" "}
-            <em>
-              We process your information to provide, improve, and administer
-              our Services, communicate with you, for security and fraud
-              prevention, and to comply with law. We may also process your
-              information for other purposes with your consent.
-            </em>
-          </p>
-
-          <p>
-            <strong>
-              We process your personal information for a variety of reasons,
-              depending on how you interact with our Services, including:
-            </strong>
-          </p>
-
-          <ul>
-            <li>
-              <strong>
-                To facilitate account creation and authentication and otherwise
-                manage user accounts.
-              </strong>{" "}
-              We may process your information so you can create and log in to
-              your account, as well as keep your account in working order.
-            </li>
-            <li>
-              <strong>
-                To deliver and facilitate delivery of services to the user.
-              </strong>{" "}
-              We may process your information to provide you with the requested
-              service.
-            </li>
-            <li>
-              <strong>To request feedback.</strong> We may process your
-              information when necessary to request feedback and to contact you
-              about your use of our Services.
-            </li>
-            <li>
-              <strong>
-                To evaluate and improve our Services, products, marketing, and
-                your experience.
-              </strong>{" "}
-              We may process your information when we believe it is necessary to
-              identify usage trends, determine the effectiveness of our
-              promotional campaigns, and to evaluate and improve our Services,
-              products, marketing, and your experience.
-            </li>
-            <li>
-              <strong>To identify usage trends.</strong> We may process
-              information about how you use our Services to better understand
-              how they are being used so we can improve them.
-            </li>
-            <li>
-              <strong>
-                To determine the effectiveness of our marketing and promotional
-                campaigns.
-              </strong>{" "}
-              We may process your information to better understand how to
-              provide marketing and promotional campaigns that are most relevant
-              to you.
-            </li>
-          </ul>
-
-          <h2 id="whoshare">
-            3. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
-          </h2>
-
-          <p>
-            <strong>
-              <em>In Short:</em>
-            </strong>{" "}
-            <em>
-              We may share information in specific situations described in this
-              section and/or with the following categories of third parties.
-            </em>
-          </p>
-
-          <p>
-            <strong>
-              Vendors, Consultants, and Other Third-Party Service Providers.
-            </strong>{" "}
-            We may share your data with third-party vendors, service providers,
-            contractors, or agents (&quot;<strong>third parties</strong>&quot;)
-            who perform services for us or on our behalf and require access to
-            such information to do that work. We have contracts in place with
-            our third parties, which are designed to help safeguard your
-            personal information. This means that they cannot do anything with
-            your personal information unless we have instructed them to do it.
-            They will also not share your personal information with any
-            organization apart from us. They also commit to protect the data
-            they hold on our behalf and to retain it for the period we instruct.
-          </p>
-
-          <p>
-            The categories of third parties we may share personal information
-            with are as follows:
-          </p>
-
-          <ul>
-            <li>Communication &amp; Collaboration Tools</li>
-            <li>Data Analytics Services</li>
-          </ul>
-
-          <p>
-            We also may need to share your personal information in the following
-            situations:
-          </p>
-
-          <ul>
-            <li>
-              <strong>Business Transfers.</strong> We may share or transfer your
-              information in connection with, or during negotiations of, any
-              merger, sale of company assets, financing, or acquisition of all
-              or a portion of our business to another company.
-            </li>
-            <li>
-              <strong>Affiliates.</strong> We may share your information with
-              our affiliates, in which case we will require those affiliates to
-              honor this Privacy Notice. Affiliates include our parent company
-              and any subsidiaries, joint venture partners, or other companies
-              that we control or that are under common control with us.
-            </li>
-            <li>
-              <strong>Business Partners.</strong> We may share your information
-              with our business partners to offer you certain products,
-              services, or promotions.
-            </li>
-            <li>
-              <strong>Offer Wall.</strong> Our application(s) may display a
-              third-party hosted &quot;offer wall.&quot; Such an offer wall
-              allows third-party advertisers to offer virtual currency, gifts,
-              or other items to users in return for the acceptance and
-              completion of an advertisement offer. Such an offer wall may
-              appear in our application(s) and be displayed to you based on
-              certain data, such as your geographic area or demographic
-              information. When you click on an offer wall, you will be brought
-              to an external website belonging to other persons and will leave
-              our application(s). A unique identifier, such as your user ID,
-              will be shared with the offer wall provider in order to prevent
-              fraud and properly credit your account with the relevant reward.
-            </li>
-          </ul>
-
-          <h2 id="cookies">
-            4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
-          </h2>
-
-          <p>
-            <strong>
-              <em>In Short:</em>
-            </strong>{" "}
-            <em>
-              We may use cookies and other tracking technologies to collect and
-              store your information.
-            </em>
-          </p>
-
-          <p>
-            We may use cookies and similar tracking technologies (like web
-            beacons and pixels) to gather information when you interact with our
-            Services. Some online tracking technologies help us maintain the
-            security of our Services and your account, prevent crashes, fix
-            bugs, save your preferences, and assist with basic site functions.
-          </p>
-
-          <p>
-            We also permit third parties and service providers to use online
-            tracking technologies on our Services for analytics and advertising,
-            including to help manage and display advertisements, to tailor
-            advertisements to your interests, or to send abandoned shopping cart
-            reminders (depending on your communication preferences). The third
-            parties and service providers use their technology to provide
-            advertising about products and services tailored to your interests
-            which may appear either on our Services or on other websites.
-          </p>
-
-          <p>
-            To the extent these online tracking technologies are deemed to be a
-            &quot;sale&quot;/&quot;sharing&quot; (which includes targeted
-            advertising, as defined under the applicable laws) under applicable
-            US state laws, you can opt out of these online tracking technologies
-            by submitting a request as described below under section &quot;
-            <a href="#uslaws">
-              DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
-            </a>
-            &quot;
-          </p>
-
-          <p>
-            Specific information about how we use such technologies and how you
-            can refuse certain cookies is set out in our Cookie Notice.
-          </p>
-
-          <h2 id="ai">
-            5. DO WE OFFER ARTIFICIAL INTELLIGENCE-BASED PRODUCTS?
-          </h2>
-
-          <p>
-            <strong>
-              <em>In Short:</em>
-            </strong>{" "}
-            <em>
-              We offer products, features, or tools powered by artificial
-              intelligence, machine learning, or similar technologies.
-            </em>
-          </p>
-
-          <p>
-            As part of our Services, we offer products, features, or tools
-            powered by artificial intelligence, machine learning, or similar
-            technologies (collectively, &quot;AI Products&quot;). These tools
-            are designed to enhance your experience and provide you with
-            innovative solutions. The terms in this Privacy Notice govern your
-            use of the AI Products within our Services.
-          </p>
-
-          <h4>Use of AI Technologies</h4>
-
-          <p>
-            We provide the AI Products through third-party service providers
-            (&quot;AI Service Providers&quot;), including OpenAI. As outlined in
-            this Privacy Notice, your input, output, and personal information
-            will be shared with and processed by these AI Service Providers to
-            enable your use of our AI Products for purposes outlined in &quot;
-            <a href="#whoshare">
-              WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
-            </a>
-            &quot; You must not use the AI Products in any way that violates the
-            terms or policies of any AI Service Provider.
-          </p>
-
-          <h4>Our AI Products</h4>
-
-          <p>
-            Our AI Products are designed for the following functions:
-          </p>
-
-          <ul>
-            <li>AI translation</li>
-          </ul>
-
-          <h4>How We Process Your Data Using AI</h4>
-
-          <p>
-            All personal information processed using our AI Products is handled
-            in line with our Privacy Notice and our agreement with third
-            parties. This ensures high security and safeguards your personal
-            information throughout the process, giving you peace of mind about
-            your data&apos;s safety.
-          </p>
-
-          <h2 id="inforetain">6. HOW LONG DO WE KEEP YOUR INFORMATION?</h2>
-
-          <p>
-            <strong>
-              <em>In Short:</em>
-            </strong>{" "}
-            <em>
-              We keep your information for as long as necessary to fulfill the
-              purposes outlined in this Privacy Notice unless otherwise required
-              by law.
-            </em>
-          </p>
-
-          <p>
-            We will only keep your personal information for as long as it is
-            necessary for the purposes set out in this Privacy Notice, unless a
-            longer retention period is required or permitted by law (such as
-            tax, accounting, or other legal requirements). No purpose in this
-            notice will require us keeping your personal information for longer
-            than the period of time in which users have an account with us.
-          </p>
-
-          <p>
-            When we have no ongoing legitimate business need to process your
-            personal information, we will either delete or anonymize such
-            information, or, if this is not possible (for example, because your
-            personal information has been stored in backup archives), then we
-            will securely store your personal information and isolate it from
-            any further processing until deletion is possible.
-          </p>
-
-          <h2 id="infosafe">7. HOW DO WE KEEP YOUR INFORMATION SAFE?</h2>
-
-          <p>
-            <strong>
-              <em>In Short:</em>
-            </strong>{" "}
-            <em>
-              We aim to protect your personal information through a system of
-              organizational and technical security measures.
-            </em>
-          </p>
-
-          <p>
-            We have implemented appropriate and reasonable technical and
-            organizational security measures designed to protect the security of
-            any personal information we process. However, despite our safeguards
-            and efforts to secure your information, no electronic transmission
-            over the Internet or information storage technology can be
-            guaranteed to be 100% secure, so we cannot promise or guarantee that
-            hackers, cybercriminals, or other unauthorized third parties will
-            not be able to defeat our security and improperly collect, access,
-            steal, or modify your information. Although we will do our best to
-            protect your personal information, transmission of personal
-            information to and from our Services is at your own risk. You should
-            only access the Services within a secure environment.
-          </p>
-
-          <h2 id="infominors">
-            8. DO WE COLLECT INFORMATION FROM MINORS?
-          </h2>
-
-          <p>
-            <strong>
-              <em>In Short:</em>
-            </strong>{" "}
-            <em>
-              We do not knowingly collect data from or market to children under
-              18 years of age.
-            </em>
-          </p>
-
-          <p>
-            We do not knowingly collect, solicit data from, or market to
-            children under 18 years of age, nor do we knowingly sell such
-            personal information. By using the Services, you represent that you
-            are at least 18 or that you are the parent or guardian of such a
-            minor and consent to such minor dependent&apos;s use of the
-            Services. If we learn that personal information from users less than
-            18 years of age has been collected, we will deactivate the account
-            and take reasonable measures to promptly delete such data from our
-            records. If you become aware of any data we may have collected from
-            children under age 18, please contact us at{" "}
-            <a href="mailto:christian@homecloserai.com">
-              christian@homecloserai.com
+              openai.com/policies/privacy-policy
             </a>
             .
           </p>
 
-          <h2 id="privacyrights">9. WHAT ARE YOUR PRIVACY RIGHTS?</h2>
-
           <p>
-            <strong>
-              <em>In Short:</em>
-            </strong>{" "}
-            <em>
-              You may review, change, or terminate your account at any time,
-              depending on your country, province, or state of residence.
-            </em>
+            <strong>4.4 AI Notes Generation.</strong> After a showing, we send
+            your combined transcript text (up to 8,000 characters) and your
+            showing analytics metrics to OpenAI&apos;s GPT-4o-mini model to
+            generate coaching notes. These notes are stored in your showing
+            record in our database.
           </p>
 
           <p>
-            <strong>
-              <u>Withdrawing your consent:</u>
-            </strong>{" "}
-            If we are relying on your consent to process your personal
-            information, which may be express and/or implied consent depending
-            on the applicable law, you have the right to withdraw your consent
-            at any time. You can withdraw your consent at any time by contacting
-            us by using the contact details provided in the section &quot;
-            <a href="#contact">HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</a>
-            &quot; below.
+            <strong>4.5 NO OPT-OUT FOR CORE FEATURES.</strong> AUDIO RECORDING
+            AND TRANSMISSION TO OPENAI ARE FUNDAMENTAL TO THE SERVICE&apos;S
+            CORE FEATURES (SAFETY PHRASE DETECTION, TRANSCRIPTION, AND AI
+            NOTES). THERE IS CURRENTLY NO OPTION TO USE THE SHOWING FEATURE
+            WITHOUT AUDIO RECORDING AND OPENAI PROCESSING. IF YOU DO NOT CONSENT
+            TO THIS, DO NOT START A SHOWING SESSION.
           </p>
 
           <p>
-            However, please note that this will not affect the lawfulness of the
-            processing before its withdrawal nor, when applicable law allows,
-            will it affect the processing of your personal information conducted
-            in reliance on lawful processing grounds other than consent.
+            <strong>4.6 Consent Responsibility.</strong> You are solely
+            responsible for disclosing to &mdash; and obtaining any legally
+            required consent from &mdash; all individuals who may be recorded
+            during a showing, in compliance with all applicable wiretapping,
+            eavesdropping, and recording laws in your state.
           </p>
 
-          <h3>Account Information</h3>
+          <h2 id="whoshare">5. HOW WE SHARE YOUR INFORMATION</h2>
 
           <p>
-            If you would at any time like to review or change the information in
-            your account or terminate your account, you can:
+            We do not sell your personal information. We share your information
+            only in the following circumstances:
           </p>
 
+          <p>
+            <strong>5.1 Emergency Dispatch (Noonlight).</strong> When your
+            safety code phrase is detected during a showing, we automatically
+            transmit the following information to Noonlight, our emergency
+            dispatch partner:
+          </p>
+          <ul>
+            <li>Your full name</li>
+            <li>Your mobile phone number (formatted to E.164 standard)</li>
+            <li>
+              The property address for the active showing (street, city, state,
+              ZIP)
+            </li>
+            <li>A reference showing ID</li>
+          </ul>
+          <p>
+            Noonlight uses this information to dispatch emergency responders.
+            Noonlight may share your information with public safety answering
+            points (PSAPs), law enforcement, fire, or emergency medical services
+            as necessary to respond to the dispatch. Your use of the emergency
+            dispatch feature constitutes your consent to this disclosure.
+            Noonlight&apos;s own Privacy Policy governs their handling of your
+            data.
+          </p>
+
+          <p>
+            <strong>5.2 OpenAI (Transcription and AI Notes).</strong> We share
+            your audio recordings and transcript data with OpenAI to provide
+            transcription (via OpenAI Whisper / gpt-4o-mini-transcribe) and
+            AI-generated showing notes (via GPT-4o-mini). See Section 4 for
+            full details.
+          </p>
+
+          <p>
+            <strong>5.3 Third-Party Service Providers.</strong> We share
+            information with trusted third-party vendors who assist us in
+            operating the Service, subject to confidentiality obligations. These
+            include:
+          </p>
           <ul>
             <li>
-              Log in to your account settings and update your user account.
+              <strong>Supabase</strong> &mdash; provides our database and
+              authentication infrastructure. All user profile data, showing
+              records, transcripts, and safety event logs are stored in
+              Supabase&apos;s hosted PostgreSQL database.
+            </li>
+            <li>
+              <strong>Railway</strong> &mdash; hosts our backend server. Audio
+              uploads and API requests pass through our Railway-hosted server
+              before being processed or forwarded to other providers.
+            </li>
+            <li>
+              <strong>RevenueCat</strong> &mdash; manages subscription purchases
+              and purchase history via the Apple App Store. Your user ID and
+              purchase status are shared with RevenueCat.
+            </li>
+            <li>
+              <strong>PostHog</strong> &mdash; provides product analytics. We
+              send anonymized behavioral event data (e.g., screen views, feature
+              usage counts) to PostHog. We explicitly exclude all personally
+              identifiable information such as names, email addresses, phone
+              numbers, addresses, transcripts, and safety phrases from analytics
+              events.
+            </li>
+            <li>
+              <strong>Apple App Store</strong> &mdash; processes in-app
+              subscription payments. Apple&apos;s own privacy policy governs
+              payment data.
             </li>
           </ul>
 
           <p>
-            Upon your request to terminate your account, we will deactivate or
-            delete your account and information from our active databases.
-            However, we may retain some information in our files to prevent
-            fraud, troubleshoot problems, assist with any investigations,
-            enforce our legal terms and/or comply with applicable legal
-            requirements.
+            <strong>5.4 Business Transfers.</strong> In the event of a merger,
+            acquisition, reorganization, sale of assets, or bankruptcy, your
+            personal information may be transferred to a successor entity as
+            part of the transaction. We will provide notice before your
+            information becomes subject to a different privacy policy.
           </p>
 
           <p>
-            <strong>
-              <u>Cookies and similar technologies:</u>
-            </strong>{" "}
-            Most Web browsers are set to accept cookies by default. If you
-            prefer, you can usually choose to set your browser to remove cookies
-            and to reject cookies. If you choose to remove cookies or reject
-            cookies, this could affect certain features or services of our
-            Services.
+            <strong>5.5 Legal Requirements.</strong> We may disclose your
+            information if required to do so by law, court order, or
+            governmental authority, or if we believe in good faith that such
+            disclosure is necessary to: comply with legal obligations; protect
+            the rights or safety of HomeCloser AI, our users, or the public;
+            detect, prevent, or address fraud or security issues; or enforce our
+            Terms of Service.
           </p>
 
-          <p>
-            If you have questions or comments about your privacy rights, you may
-            email us at{" "}
-            <a href="mailto:christian@homecloserai.com">
-              christian@homecloserai.com
-            </a>
-            .
-          </p>
-
-          <h2 id="DNT">10. CONTROLS FOR DO-NOT-TRACK FEATURES</h2>
-
-          <p>
-            Most web browsers and some mobile operating systems and mobile
-            applications include a Do-Not-Track (&quot;DNT&quot;) feature or
-            setting you can activate to signal your privacy preference not to
-            have data about your online browsing activities monitored and
-            collected. At this stage, no uniform technology standard for
-            recognizing and implementing DNT signals has been finalized. As
-            such, we do not currently respond to DNT browser signals or any
-            other mechanism that automatically communicates your choice not to
-            be tracked online. If a standard for online tracking is adopted that
-            we must follow in the future, we will inform you about that practice
-            in a revised version of this Privacy Notice.
-          </p>
-
-          <p>
-            California law requires us to let you know how we respond to web
-            browser DNT signals. Because there currently is not an industry or
-            legal standard for recognizing or honoring DNT signals, we do not
-            respond to them at this time.
-          </p>
-
-          <h2 id="uslaws">
-            11. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
+          <h2 id="thirdparty">
+            6. THIRD-PARTY SERVICE PROVIDERS &mdash; SUMMARY
           </h2>
 
           <p>
-            <strong>
-              <em>In Short:</em>
-            </strong>{" "}
-            <em>
-              If you are a resident of California, Colorado, Connecticut,
-              Delaware, Florida, Indiana, Iowa, Kentucky, Maryland, Minnesota,
-              Montana, Nebraska, New Hampshire, New Jersey, Oregon, Rhode
-              Island, Tennessee, Texas, Utah, or Virginia, you may have the
-              right to request access to and receive details about the personal
-              information we maintain about you and how we have processed it,
-              correct inaccuracies, get a copy of, or delete your personal
-              information. You may also have the right to withdraw your consent
-              to our processing of your personal information. These rights may
-              be limited in some circumstances by applicable law. More
-              information is provided below.
-            </em>
-          </p>
-
-          <h3>Categories of Personal Information We Collect</h3>
-
-          <p>
-            The table below shows the categories of personal information we have
-            collected in the past twelve (12) months.
+            The following table summarizes the key third-party services
+            integrated with HomeCloser AI, the data shared with each, and their
+            primary purpose:
           </p>
 
           <div className="overflow-x-auto">
@@ -857,345 +516,282 @@ export default function PrivacyPolicy() {
               <thead>
                 <tr className="bg-gray-50">
                   <th className="border border-gray-300 px-4 py-2 text-left font-semibold">
-                    Category
+                    Provider
                   </th>
                   <th className="border border-gray-300 px-4 py-2 text-left font-semibold">
-                    Examples
+                    Purpose
                   </th>
                   <th className="border border-gray-300 px-4 py-2 text-left font-semibold">
-                    Collected
+                    Data Shared
+                  </th>
+                  <th className="border border-gray-300 px-4 py-2 text-left font-semibold">
+                    Privacy Policy
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td className="border border-gray-300 px-4 py-2">
-                    A. Identifiers
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">
-                    Contact details, such as real name, alias, postal address,
-                    telephone or mobile contact number, unique personal
-                    identifier, online identifier, Internet Protocol address,
-                    email address, and account name
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">YES</td>
+                  <td className="border border-gray-300 px-4 py-2">Noonlight</td>
+                  <td className="border border-gray-300 px-4 py-2">Emergency dispatch</td>
+                  <td className="border border-gray-300 px-4 py-2">Name, phone number, property address</td>
+                  <td className="border border-gray-300 px-4 py-2">noonlight.com/privacy</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-300 px-4 py-2">
-                    B. Personal information (California Customer Records)
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">
-                    Name, contact information, education, employment, employment
-                    history, and financial information
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">YES</td>
+                  <td className="border border-gray-300 px-4 py-2">OpenAI</td>
+                  <td className="border border-gray-300 px-4 py-2">Audio transcription (Whisper) and AI coaching notes (GPT-4o-mini)</td>
+                  <td className="border border-gray-300 px-4 py-2">Audio recordings (.m4a), transcript text, showing analytics</td>
+                  <td className="border border-gray-300 px-4 py-2">openai.com/policies/privacy-policy</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-300 px-4 py-2">
-                    C. Protected classification characteristics
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">
-                    Gender, age, date of birth, race and ethnicity, national
-                    origin, marital status, and other demographic data
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">NO</td>
+                  <td className="border border-gray-300 px-4 py-2">Supabase</td>
+                  <td className="border border-gray-300 px-4 py-2">Database and authentication</td>
+                  <td className="border border-gray-300 px-4 py-2">All user profile and showing data, transcripts, safety events</td>
+                  <td className="border border-gray-300 px-4 py-2">supabase.com/privacy</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-300 px-4 py-2">
-                    D. Commercial information
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">
-                    Transaction information, purchase history, financial
-                    details, and payment information
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">YES</td>
+                  <td className="border border-gray-300 px-4 py-2">Railway</td>
+                  <td className="border border-gray-300 px-4 py-2">Backend server hosting</td>
+                  <td className="border border-gray-300 px-4 py-2">Audio uploads and API traffic (in transit)</td>
+                  <td className="border border-gray-300 px-4 py-2">railway.app/legal/privacy</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-300 px-4 py-2">
-                    E. Biometric information
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">
-                    Fingerprints and voiceprints
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">YES</td>
+                  <td className="border border-gray-300 px-4 py-2">RevenueCat</td>
+                  <td className="border border-gray-300 px-4 py-2">Subscription management</td>
+                  <td className="border border-gray-300 px-4 py-2">User ID, purchase history</td>
+                  <td className="border border-gray-300 px-4 py-2">revenuecat.com/privacy</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-300 px-4 py-2">
-                    F. Internet or other similar network activity
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">
-                    Browsing history, search history, online behavior, interest
-                    data, and interactions with our and other websites,
-                    applications, systems, and advertisements
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">YES</td>
+                  <td className="border border-gray-300 px-4 py-2">PostHog</td>
+                  <td className="border border-gray-300 px-4 py-2">Product analytics</td>
+                  <td className="border border-gray-300 px-4 py-2">Anonymized behavioral events (no PII)</td>
+                  <td className="border border-gray-300 px-4 py-2">posthog.com/privacy</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-300 px-4 py-2">
-                    G. Geolocation data
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">
-                    Device location
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">YES</td>
-                </tr>
-                <tr>
-                  <td className="border border-gray-300 px-4 py-2">
-                    H. Audio, electronic, sensory, or similar information
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">
-                    Images and audio, video or call recordings created in
-                    connection with our business activities
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">YES</td>
-                </tr>
-                <tr>
-                  <td className="border border-gray-300 px-4 py-2">
-                    I. Professional or employment-related information
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">
-                    Business contact details in order to provide you our
-                    Services at a business level or job title, work history, and
-                    professional qualifications
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">YES</td>
-                </tr>
-                <tr>
-                  <td className="border border-gray-300 px-4 py-2">
-                    J. Education Information
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">
-                    Student records and directory information
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">YES</td>
-                </tr>
-                <tr>
-                  <td className="border border-gray-300 px-4 py-2">
-                    K. Inferences drawn from collected personal information
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">
-                    Inferences drawn from any of the collected personal
-                    information listed above to create a profile or summary
-                    about, for example, an individual&apos;s preferences and
-                    characteristics
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2">NO</td>
-                </tr>
-                <tr>
-                  <td className="border border-gray-300 px-4 py-2">
-                    L. Sensitive personal Information
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2"></td>
-                  <td className="border border-gray-300 px-4 py-2">NO</td>
+                  <td className="border border-gray-300 px-4 py-2">Apple App Store</td>
+                  <td className="border border-gray-300 px-4 py-2">Payment processing</td>
+                  <td className="border border-gray-300 px-4 py-2">Payment and purchase data (handled directly by Apple)</td>
+                  <td className="border border-gray-300 px-4 py-2">apple.com/legal/privacy</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <p>
-            We will use and retain the collected personal information as needed
-            to provide the Services or for as long as the user has an account
-            with us.
-          </p>
-
-          <h3>Your Rights</h3>
+          <h2 id="retention">7. DATA RETENTION</h2>
 
           <p>
-            You have rights under certain US state data protection laws.
-            However, these rights are not absolute, and in certain cases, we may
-            decline your request as permitted by law. These rights include:
+            <strong>7.1 Account Data.</strong> We retain your account profile
+            information (name, email, phone number, state, gender, years of
+            experience, brokerage, and safety code phrase) for as long as your
+            account is active.
           </p>
 
+          <p>
+            <strong>7.2 Showing Records and Transcripts.</strong> Showing
+            records (including property addresses, client names, notes,
+            analytics, and AI-generated notes) and transcripts are retained
+            indefinitely while your account is active. We do not currently apply
+            automatic time-based deletion to individual showing records.
+          </p>
+
+          <p>
+            <strong>7.3 Safety Event Logs.</strong> Logs of safety-related
+            events (phrase detections, alarm triggers, Noonlight status updates)
+            are retained for as long as your account is active.
+          </p>
+
+          <p>
+            <strong>7.4 Account Deletion.</strong> If you delete your account
+            through the in-app account deletion feature, we will delete the
+            following data from our systems: your profile, all showing records,
+            all transcripts, and all safety event logs linked to your account.
+            This deletion is permanent and irreversible. Note that data
+            previously transmitted to OpenAI, Noonlight, or other third parties
+            may be subject to those providers&apos; own retention policies.
+          </p>
+
+          <p>
+            <strong>7.5 Analytics Data.</strong> Anonymized product analytics
+            events stored in PostHog are retained per PostHog&apos;s standard
+            retention policies and are not linked to your personal identity.
+          </p>
+
+          <h2 id="security">8. DATA SECURITY</h2>
+
+          <p>
+            <strong>8.1 Measures.</strong> We implement commercially reasonable
+            technical and organizational measures to protect your personal
+            information, including:
+          </p>
           <ul>
             <li>
-              <strong>Right to know</strong> whether or not we are processing
-              your personal data
+              HTTPS encryption for all data in transit between the app and our
+              servers
+            </li>
+            <li>Bearer token authentication for all API requests</li>
+            <li>
+              Supabase-managed authentication with hashed password storage
             </li>
             <li>
-              <strong>Right to access</strong> your personal data
+              Row-level ownership validation (your data is only accessible by
+              your authenticated account)
             </li>
             <li>
-              <strong>Right to correct</strong> inaccuracies in your personal
-              data
+              HMAC-SHA256 signature verification for Noonlight webhook events
             </li>
             <li>
-              <strong>Right to request</strong> the deletion of your personal
-              data
-            </li>
-            <li>
-              <strong>Right to obtain a copy</strong> of the personal data you
-              previously shared with us
-            </li>
-            <li>
-              <strong>Right to non-discrimination</strong> for exercising your
-              rights
-            </li>
-            <li>
-              <strong>Right to opt out</strong> of the processing of your
-              personal data if it is used for targeted advertising (or sharing
-              as defined under California&apos;s privacy law), the sale of
-              personal data, or profiling in furtherance of decisions that
-              produce legal or similarly significant effects
-              (&quot;profiling&quot;)
+              Deletion of audio files from your device after successful upload
             </li>
           </ul>
 
-          <h3>How to Exercise Your Rights</h3>
-
           <p>
-            To exercise these rights, you can contact us by submitting a{" "}
-            <a
-              href="https://app.termly.io/dsar/d6b2f00c-3a33-4ea2-bccc-da749a942bb1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              data subject access request
-            </a>
-            , by emailing us at{" "}
-            <a href="mailto:Christian@homecloserai.com">
-              Christian@homecloserai.com
-            </a>
-            , or by referring to the contact details at the bottom of this
-            document.
-          </p>
-
-          <h3>Request Verification</h3>
-
-          <p>
-            Upon receiving your request, we will need to verify your identity to
-            determine you are the same person about whom we have the information
-            in our system. We will only use personal information provided in
-            your request to verify your identity or authority to make the
-            request. However, if we cannot verify your identity from the
-            information already maintained by us, we may request that you
-            provide additional information for the purposes of verifying your
-            identity and for security or fraud-prevention purposes.
+            <strong>8.2 Limitations.</strong> No method of data transmission or
+            storage is completely secure. We cannot guarantee absolute security
+            of your personal information. In the event of a data breach that
+            affects your rights, we will notify you as required by applicable
+            law.
           </p>
 
           <p>
-            If you submit the request through an authorized agent, we may need
-            to collect additional information to verify your identity before
-            processing your request and the agent will need to provide a written
-            and signed permission from you to submit such request on your
-            behalf.
+            <strong>8.3 Phone Number Storage.</strong> Your mobile phone number
+            is stored in our database to enable emergency dispatch. It is not
+            encrypted at the application layer beyond the standard encryption
+            provided by our database host (Supabase).
           </p>
 
-          <h3>Appeals</h3>
+          <h2 id="rights">9. YOUR RIGHTS AND CHOICES</h2>
 
           <p>
-            Under certain US state data protection laws, if we decline to take
-            action regarding your request, you may appeal our decision by
-            emailing us at{" "}
+            <strong>9.1 Access and Correction.</strong> You may view and update
+            your account profile information (name, phone number, state,
+            brokerage, safety phrase, etc.) through the Settings screen within
+            the app.
+          </p>
+
+          <p>
+            <strong>9.2 Account and Data Deletion.</strong> You may delete your
+            account and all associated data at any time through the in-app
+            account deletion feature. Deletion removes your profile, showings,
+            transcripts, and safety event logs from our systems. This action is
+            permanent.
+          </p>
+
+          <p>
+            <strong>9.3 State-Specific Rights.</strong> Residents of certain
+            U.S. states have additional privacy rights under applicable law:
+          </p>
+          <ul>
+            <li>
+              <strong>California (CCPA/CPRA):</strong> California residents have
+              the right to know what personal information we collect, use, share,
+              or sell; to request deletion of personal information; to correct
+              inaccurate personal information; to opt out of the sale or sharing
+              of personal information (we do not sell personal information); and
+              to non-discrimination for exercising these rights.
+            </li>
+            <li>
+              <strong>Other States:</strong> Residents of Colorado, Connecticut,
+              Virginia, Texas, and other states with comprehensive privacy laws
+              may have similar rights to access, correct, delete, or obtain a
+              copy of their personal information, and to opt out of certain
+              processing.
+            </li>
+          </ul>
+          <p>
+            To exercise any of these rights, please contact us at{" "}
             <a href="mailto:christian@homecloserai.com">
               christian@homecloserai.com
             </a>
-            . We will inform you in writing of any action taken or not taken in
-            response to the appeal, including a written explanation of the
-            reasons for the decisions. If your appeal is denied, you may submit
-            a complaint to your state attorney general.
-          </p>
-
-          <h3>
-            California &quot;Shine The Light&quot; Law
-          </h3>
-
-          <p>
-            California Civil Code Section 1798.83, also known as the &quot;Shine
-            The Light&quot; law, permits our users who are California residents
-            to request and obtain from us, once a year and free of charge,
-            information about categories of personal information (if any) we
-            disclosed to third parties for direct marketing purposes and the
-            names and addresses of all third parties with which we shared
-            personal information in the immediately preceding calendar year. If
-            you are a California resident and would like to make such a request,
-            please submit your request in writing to us by using the contact
-            details provided in the section &quot;
-            <a href="#contact">HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</a>
-            &quot;
-          </p>
-
-          <h2 id="policyupdates">12. DO WE MAKE UPDATES TO THIS NOTICE?</h2>
-
-          <p>
-            <strong>
-              <em>In Short:</em>
-            </strong>{" "}
-            <em>
-              Yes, we will update this notice as necessary to stay compliant
-              with relevant laws.
-            </em>
+            . We will respond to verifiable requests within the timeframe
+            required by applicable law.
           </p>
 
           <p>
-            We may update this Privacy Notice from time to time. The updated
-            version will be indicated by an updated &quot;Revised&quot; date at
-            the top of this Privacy Notice. If we make material changes to this
-            Privacy Notice, we may notify you either by prominently posting a
-            notice of such changes or by directly sending you a notification. We
-            encourage you to review this Privacy Notice frequently to be
-            informed of how we are protecting your information.
+            <strong>9.4 Do Not Track.</strong> The Service does not respond to
+            browser &quot;Do Not Track&quot; signals, as it is a mobile
+            application and not a website. We do not track users across
+            third-party apps or websites for advertising purposes. Our iOS
+            privacy manifest declares tracking as false (NSPrivacyTrackingUsage:
+            false).
           </p>
 
-          <h2 id="contact">
-            13. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
-          </h2>
+          <p>
+            <strong>9.5 Analytics Opt-Out.</strong> We use PostHog for product
+            analytics. Analytics events do not contain personally identifiable
+            information. At this time we do not offer a separate in-app toggle
+            to disable analytics collection.
+          </p>
+
+          <h2 id="children">10. CHILDREN&apos;S PRIVACY</h2>
 
           <p>
-            If you have questions or comments about this notice, you may email
-            us at{" "}
+            The Service is not directed to children under 18 years of age. We
+            do not knowingly collect personal information from children under
+            18. If we become aware that we have inadvertently collected personal
+            information from a child under 18, we will take steps to delete that
+            information promptly. If you believe we have collected information
+            from a child, please contact us at{" "}
             <a href="mailto:christian@homecloserai.com">
               christian@homecloserai.com
-            </a>{" "}
-            or contact us by post at:
+            </a>
+            .
+          </p>
+
+          <h2 id="changes">11. CHANGES TO THIS POLICY</h2>
+
+          <p>
+            We may update this Privacy Policy from time to time. When we make
+            material changes, we will notify you by posting the updated Policy
+            within the application and updating the &quot;Last Updated&quot;
+            date at the top of this document. For significant changes, we may
+            also send a notification to the email address associated with your
+            account. Your continued use of the Service after the effective date
+            of any changes constitutes your acceptance of the updated Policy. We
+            encourage you to review this Policy periodically.
+          </p>
+
+          <h2 id="contact">12. CONTACT INFORMATION</h2>
+
+          <p>
+            If you have questions, concerns, or requests regarding this Privacy
+            Policy or our data practices, please contact us at:
           </p>
 
           <p>
-            HomeCloser AI
+            HomeCloser AI, Company
             <br />
             345 E Woolbright Rd
             <br />
             Boynton Beach, FL 33435
             <br />
-            United States
-          </p>
-
-          <h2 id="request">
-            14. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM
-            YOU?
-          </h2>
-
-          <p>
-            Based on the applicable laws of your country or state of residence
-            in the US, you may have the right to request access to the personal
-            information we collect from you, details about how we have processed
-            it, correct inaccuracies, or delete your personal information. You
-            may also have the right to withdraw your consent to our processing
-            of your personal information. These rights may be limited in some
-            circumstances by applicable law. To request to review, update, or
-            delete your personal information, please fill out and submit a{" "}
-            <a
-              href="https://app.termly.io/dsar/d6b2f00c-3a33-4ea2-bccc-da749a942bb1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              data subject access request
+            Email:{" "}
+            <a href="mailto:contact@homecloserai.com">
+              contact@homecloserai.com
             </a>
-            .
+            <br />
+            Website:{" "}
+            <a href="https://www.homecloserai.com/privacy">
+              www.homecloserai.com/privacy
+            </a>
           </p>
 
           <hr className="my-8" />
 
           <p className="text-sm text-gray-500">
-            This Privacy Policy was created using Termly&apos;s{" "}
-            <a
-              href="https://termly.io/products/privacy-policy-generator/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Privacy Policy Generator
-            </a>
-            .
+            This Privacy Policy was last reviewed and updated on February 19,
+            2026. HomeCloser AI recommends that you save a copy of this Policy
+            for your records.
           </p>
+
+          <div className="bg-gray-50 border border-gray-200 rounded p-4 mt-6">
+            <p className="text-sm font-semibold text-gray-700 mb-0">
+              ACKNOWLEDGMENT: BY USING THE HOMECLOSER AI SERVICE, YOU
+              ACKNOWLEDGE THAT YOU HAVE READ THIS PRIVACY POLICY IN ITS
+              ENTIRETY AND THAT YOU CONSENT TO THE COLLECTION, USE, AND SHARING
+              OF YOUR INFORMATION AS DESCRIBED HEREIN, INCLUDING THE CONTINUOUS
+              RECORDING OF AUDIO DURING SHOWING SESSIONS AND THE TRANSMISSION
+              OF THAT AUDIO TO OPENAI FOR PROCESSING.
+            </p>
+          </div>
         </article>
       </main>
     </>
