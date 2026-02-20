@@ -43,16 +43,6 @@ export default function PrivacyPolicy() {
             <strong>Effective Date: February 19, 2026 &nbsp;|&nbsp; Last Updated: February 19, 2026</strong>
           </p>
 
-          <div className="bg-yellow-50 border border-yellow-300 rounded p-4 my-6">
-            <p className="font-bold text-yellow-900 mb-0">
-              IMPORTANT: HomeCloser AI continuously records audio from your
-              device&apos;s microphone during property showings. This audio is
-              uploaded to our servers and processed by OpenAI for transcription
-              and AI-generated notes. Please read this Privacy Policy carefully
-              before using the Service.
-            </p>
-          </div>
-
           <h2>TABLE OF CONTENTS</h2>
           <ol>
             <li><a href="#overview">Overview and Scope</a></li>
